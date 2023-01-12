@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order | Hr Coffee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div style="position: relative; text-align: center; color: white; height: 100vh;" class="container-form-order">
+            <div class="form-order">
+                <h2 style="color: white; text-align: center;">Order Makanan</h2>
+                <form method="get">
+                    <label>Nama Anda
+                        <input type="text" name="nama">
+                    </label>
+                    <label>Alamat
+                        <input type="text" name="alamat">
+                    </label>
+                    <label>List Makanan & Minuman</label>
+                    <select name="makananMinuman">
+                        <option value="makanan">HR Chicken Box</option>
+                        <option value="minuman">Pop Ice(Ada 5 Rasa)</option>
+                        <option value="makanan">Banana Cheese HR</option>
+                        <option value="makanan">Mie Goreng</option>
+                        <option value="minuman">Es Milo Coklat</option>
+                        <option value="minuman">Kopi Susu Panas</option>
+                        <option value="minuman">Mineral Dingin</option>
+                        <option value="minuman">Milo Panas</option>
+                        <option value="minuman">Lemon Tea</option>
+                        <option value="minuman">Es Teh</option>
+                    </select>
+                    <label>No Hp
+                        <input type="tel" name="telphone">
+                    </label>
+
+                    <input type="submit" name="submit" value="Pesan">
+                   
+                </form>
+            </div>
+            <button onclick="location.href='menu.html';"
+            class="btn-sosmed bi bi-arrow-left" style="position: fixed; left: 50px; top: 50px;"> Kembali Ke Menu</button>
+        </div>
+    </section>
+</body>
+
+</html>
